@@ -1,0 +1,28 @@
+{
+  "name": "hapi-pg-pool",
+  "version": "0.0.1",
+  "description": "Expose postgres connection pooling to request handlers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hapi",
+    "pg",
+    "postgres",
+    "pool",
+    "database"
+  ],
+  "author": "David Wood <david.p.wood@gmail.com> (http://www.codesleuth.co.uk/)",
+  "license": "MIT",
+  "dependencies": {
+    "pg-pool": "^1.6.0"
+  },
+  "peerDependencies": {
+    "pg": "^6.1.2"
+  },
+  "devDependencies": {
+    "hapi": "^16.1.0",
+    "pg": "^6.1.2"
+  }
+}
