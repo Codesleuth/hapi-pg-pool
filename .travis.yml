@@ -1,0 +1,10 @@
+language: node_js
+
+services:
+  - postgresql
+
+before_script:
+  - psql -c 'create database travis_ci_test;' -U postgres
+
+env:
+  - DB=travis_ci_test
