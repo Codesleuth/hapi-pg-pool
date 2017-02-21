@@ -1,4 +1,4 @@
-# Hapi PG Pool
+# Hapi PG Pool [![Build Status](https://travis-ci.org/Codesleuth/hapi-pg-pool.svg?branch=master)](https://travis-ci.org/Codesleuth/hapi-pg-pool) [![npm](https://img.shields.io/npm/v/hapi-pg-pool.svg)](https://www.npmjs.com/package/hapi-pg-pool) [![Dependency Status](https://david-dm.org/Codesleuth/hapi-pg-pool.svg)](https://david-dm.org/Codesleuth/hapi-pg-pool)
 
 Create a PostgreSQL connection pool available to Hapi request handlers.  
 Implements pooling with the [`pg-pool`](https://www.npmjs.com/package/pg-pool) package.
