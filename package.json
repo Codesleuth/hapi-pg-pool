@@ -1,6 +1,6 @@
 {
   "name": "hapi-pg-pool",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Expose postgres connection pooling to request handlers.",
   "main": "index.js",
   "scripts": {
